@@ -7,7 +7,7 @@ import os
 from tensorflow.keras.applications.vgg16 import preprocess_input
 
 # --- Ruta base de las imágenes ---
-RUTA_IMAGENES = "C:/Users/USER/Desktop/models/dataset/test"
+RUTA_IMAGENES = "dataset/test"
 
 # --- Cargar el modelo TFLite ---
 @st.cache_resource
